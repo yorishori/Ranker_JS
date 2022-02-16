@@ -1,0 +1,103 @@
+html {
+    background-color: #333;
+    color: azure;
+}
+
+.mainBlock {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+}
+
+/*OPTIONS BLOCK*/
+#optionsBlock {
+    margin-top: 20%;
+    margin-bottom: 3em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.block,
+.block a {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+
+    color: azure;
+    font-style: normal;
+    text-decoration: none;
+}
+
+#progressCase {
+    position: fixed;
+    bottom: 5%;
+    left: 2.5%;
+    width: 95%;
+    background-color: black;
+}
+
+#progressBar {
+    width: 20%;
+    height: 30px;
+    background-color: blue;
+}
+
+
+/* OTHER BLOCKS */
+#resultsBlock,
+#startBlock {
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+}
+
+
+/* BUTTON */
+.button {
+    background-color: black;
+    color: white;
+    margin-top: 2em;
+    padding: 1em;
+    align-content: center;
+    align-self: center;
+
+    font-weight: bold;
+    font-size: small;
+}
+
+.button:hover {
+    background-color: green;
+}
+
+
+/* LOADING BAR */
+#loadingBlock {
+    margin-top: 30%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#loadingCase {
+    width: 80%;
+    background-color: #ddd;
+    display: flex;
+    align-self: center;
+}
+
+#loadingBar {
+    width: 50%;
+    height: 2em;
+    background-color: green;
+
+    text-align: center;
+    /* To center it horizontally (if you want) */
+    line-height: 30px;
+    /* To center it vertically */
+    color: white;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ranker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+    <div class="mainBlock" id="startBlock">
+        <h1>Welcome to "The Ranker"</h1>
+        <p>Press the start button to begin the rankings. Depending on the number of shows/movies, this may take a while. </p>
+        <p>Note: You must pass a JSON file created from the . <br> (it will be a CVS once I figure out how to)</p>
+        <button class="button" id="startBtn">Start</button>
+        <button class="button" id="deleteBtn">Delete All</button>
+        <input class="button" id="jsonFile" type="file">
+    </div>
+
+    <div class="mainBlock" id="optionsBlock">
+        <div class="block">
+            <h1 id="tittle1">Tittle of the show</h1>
+            <button class="button" id="btn1">Button</button>
+        </div>
+
+        <div class="block">
+            <h1 id="tittle2">Tittle of the show</h1>
+            <button class="button" id="btn2">Button</button>
+        </div>
+        <div id="progressCase">
+            <div id="progressBar"></div>
+        </div>
+    </div>
+
+    <div class="mainBlock" id="resultsBlock">
+        <h1>The Results</h1>
+        <ol id="listBlock"></ol>
+        <button class="button" id="restartBtn">Restart</button>
+    </div>
+
+    <div class="mainBlock" id="loadingBlock">
+        <div id="loadingCase">
+            <div id="loadingBar">10%</div>
+        </div>
+    </div>
+    
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
